@@ -5,5 +5,5 @@ import json
 class User:
      #/users/{id}
     @staticmethod
-    def UsernameById(self, id):
-        return requests.get(url='http://api.roblox.com/users/' + str(id))
+    def UsernameById(id):
+        return requests.get(url='http://api.roblox.com/users/' + str(id)).json()
