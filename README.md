@@ -6,3 +6,5 @@ Why should you use Rython:
 - Rbxthon offers amazing documentation
 - Rbxthon is super easy to use
 - We're open-source
+
+> Visit our github [here](https://github.com/gordxn/RbxThon)
