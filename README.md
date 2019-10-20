@@ -14,7 +14,8 @@ Why should you use Rbxthon:
 
 ## User
 
-> UsernameById(self, id) <br>
+
+### UsernameById(self, id)
 > Type: **GET** <br>
 > Args: self - User Class; id - The user's ID you want the username of;
 > ### Usage
