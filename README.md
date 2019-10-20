@@ -15,16 +15,28 @@ Why should you use Rbxthon:
 ## User
 
 
-### UsernameById(self, id)
+### UsernameById(id)
 > Type: **GET** <br>
-> Args: self - User Class; id - The user's ID you want the username of;
+> Args: id - The ID of the user that you want the Username of;
 > ### Usage
 > ```python
 > from rbxthon import User
 > 
 > def UserById(id):
-> 	print(User.UsernameById(id)["Username"])
+> 	print(User.UsernameById(id))
 > 
 > UserById(116297738)
+
+### IdByUsername(id)
+> Type: **GET** <br>
+> Args: username - The Username of the user that you want the ID of;
+> ### Usage
+> ```python
+> from rbxthon import User
+> 
+> def IdByUser(username):
+> 	print(User.IdByUsername(username))
+> 
+> IdByUser("GordxnHxyward20")
 
 `This is possible thanks to https://api.roblox.com/docs`
