@@ -23,7 +23,7 @@ Why should you use Rbxthon:
 > from rbxthon import User
 > 
 > def UserById(id):
-> 	print(User.UsernameById(User, id)["Username"])
+> 	print(User.UsernameById(id)["Username"])
 > 
 > UserById(116297738)
 
