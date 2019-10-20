@@ -18,6 +18,11 @@ Why should you use Rbxthon:
 ### UsernameById(id)
 > Type: **GET** <br>
 > Args: id - The ID of the user that you want the Username of;
+> <br>
+> #### Returns the Username of the player with given Id <br>
+> ### Errors
+> Invalid Id <br>
+> User not found <br>
 > ### Usage
 > ```python
 > from rbxthon import User
@@ -30,6 +35,11 @@ Why should you use Rbxthon:
 ### IdByUsername(id)
 > Type: **GET** <br>
 > Args: username - The Username of the user that you want the ID of;
+> <br>
+> #### Returns the Id of the player with given username <br>
+> ### Errors
+> Invalid username <br>
+> User not found <br>
 > ### Usage
 > ```python
 > from rbxthon import User
