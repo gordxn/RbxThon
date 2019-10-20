@@ -1,8 +1,8 @@
-# Rython
+# Rbxthon
 
-Rython is an Open-Source Roblox API built using Python
+Rbxthon is an Open-Source Roblox API built using Python
 
 Why should you use Rython:
-- Rython offers amazing documentation
-- Rython is super easy to use
+- Rbxthon offers amazing documentation
+- Rbxthon is super easy to use
 - We're open-source
