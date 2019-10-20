@@ -8,3 +8,21 @@ Why should you use Rbxthon:
 - We're open-source
 
 > Visit our github [here](https://github.com/gordxn/RbxThon)
+
+
+# Documentation
+
+## User
+
+> UsernameById(self, id) <br>
+> Type: **GET** <br>
+> Args: self - User Class; id - The user's ID you want the username of;
+> ### Usage
+> ```python
+> from rbxthon import User
+> 
+> def UserById(id):
+> 	print(User.UsernameById(User, id)["Username"])
+> 
+> UserById(116297738)
+
