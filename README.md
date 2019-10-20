@@ -49,4 +49,23 @@ Why should you use Rbxthon:
 > 
 > IdByUser("GordxnHxyward20")
 
+### canManage(userId, assetId)
+> Type: **GET** <br>
+> Args: userId - The Id of the user; assetId - The Id of the asset you want to see if the player can manage;
+> <br>
+> #### Returns if the user given can manage a certain asset <br>
+> ### Errors
+> Invalid user Id <br>
+> User not found <br>
+> Invalid asset Id <br>
+> Asset not found <br>
+> ### Usage
+> ```python
+> from rbxthon import User
+> 
+> def userCanManageAsset(id, assetId):
+> 	print(User.canManage(id, assetId))
+> 
+> userCanManageAsset(116297738, 3488672377)
+
 `This is possible thanks to https://api.roblox.com/docs`
